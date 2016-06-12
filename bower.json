@@ -1,10 +1,11 @@
 {
-  "name": "PhotoPortfolio02",
+  "name": "photo-portfolio-chapter-1",
   "description": "A simple portfolio for photos",
   "main": "index.html",
   "moduleType": [],
   "authors": [
-    "Erica Sundberg"
+    "Erica Sundberg",
+    "Stephen Jackson"
   ],
   "license": "MIT",
   "homepage": "",
@@ -14,5 +15,10 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "angular": "^1.5.6",
+    "angular-route": "^1.5.6",
+    "bootstrap": "^3.3.6"
+  }
 }
