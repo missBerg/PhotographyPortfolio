@@ -1,0 +1,18 @@
+{
+  "name": "PhotoPortfolio02",
+  "description": "A simple portfolio for photos",
+  "main": "index.html",
+  "moduleType": [],
+  "authors": [
+    "Erica Sundberg"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
