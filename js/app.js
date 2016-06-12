@@ -1,4 +1,4 @@
-var module = angular.module("chapter1", ['ngRoute']);
+var module = angular.module("chapter1", ['ngRoute', 'ngAnimate', 'ui.bootstrap']);
 
     module.config(['$routeProvider',
         function($routeProvider) {
