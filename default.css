@@ -20,13 +20,17 @@
 	padding: 0 0 10px 0;
 }
 
+/*CAROUSEL*/
 .c1p-carousel-img{
-	width: 100vw;
+	min-width: 100vw;
+	min-height: 70vh;
+	object-fit: cover;
+	
 }
 
 .c1p-carousel-item{
-	min-height: 70vh;
-	min-width: 100vw;
+	height: 70vh;
+	width: 100vw;
 }
 
 .c1p-carousel{
@@ -34,8 +38,16 @@
 	overflow: hidden;
 }
 
+/*CONTENT CONTAINER*/
+.content-container{
+	min-height: 70vh;
+}
+
+/*FOOTER*/
 .c1p-footer{
 	background-color: #030D16;
 	color: white;
 	padding: 2vh 0;
+    bottom: 0;
+    min-height: 20vh;
 }
