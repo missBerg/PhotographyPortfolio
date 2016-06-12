@@ -25,18 +25,17 @@
 }
 
 .c1p-carousel-item{
-	max-height: 500px;
+	min-height: 70vh;
+	min-width: 100vw;
 }
 
 .c1p-carousel{
-	height: 500px;
+	height: 70vh;
 	overflow: hidden;
 }
 
-
 .c1p-footer{
-	min-height: 40vh;
 	background-color: #030D16;
-	padding: 5vh 0 0 0;
 	color: white;
+	padding: 2vh 0;
 }
