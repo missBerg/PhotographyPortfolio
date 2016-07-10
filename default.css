@@ -42,6 +42,16 @@ div.c1p-carousel img.c1p-carousel-img {
 	min-height: 70vh;
 }
 
+/*PORTFOLIO CONTAINER*/
+div.c1p-content-container div.c1p-body-container div.c1p-img-link img {
+    max-width: 100%;
+}
+
+div.c1p-content-container div.c1p-body-container div.c1p-img-link {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 /*FOOTER*/
 .c1p-footer {
 	background-color: #030D16;
