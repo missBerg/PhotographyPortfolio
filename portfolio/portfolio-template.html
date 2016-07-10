@@ -1,0 +1,19 @@
+<div class="c1p-content-container" ng-controller="PortfolioCtrl">
+    <div class="c1p-page-header">
+        <h1>{{name}}<small>{{title}}</small></h1>
+    </div>
+    <div class="c1p-body-container">
+        <div class="c1p-img-grid container-fluid">
+            <div class="row">
+                <div class="c1p-img-link col-xs-3" ng-repeat="img in selected.top_row track by $index">
+                    <img ng-src="{{img}}" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="c1p-img-link col-xs-3" ng-repeat="img in selected.bottom_row track by $index">
+                    <img ng-src="{{img}}" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
