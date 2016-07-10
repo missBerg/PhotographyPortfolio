@@ -9,12 +9,12 @@ module.controller('CarouselCtrl', function ($scope) {
           id: 0
       },
       {
-          image: 'assets/maternity/01.jpg',
+          image: 'assets/family/02.jpg',
           text: 'Test text 1',
           id: 1
       },
       {
-          image: 'assets/newborn/01.jpg',
+          image: 'assets/family/03.jpg',
           text: 'Test text 2',
           id: 2
       }
