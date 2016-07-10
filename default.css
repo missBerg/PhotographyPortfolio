@@ -51,10 +51,29 @@ div.c1p-carousel img.c1p-carousel-img {
     min-height: 20vh;
 }
 
+.c1p-footer-h1 {
+	font-size: 1.5em;
+	text-transform: uppercase;
+	color: #f7f7f7;
+}
+
+.c1p-strapline{
+	font-size: 1em;
+	color: #ccc;
+	
+}
+
 /*CONTENT TEXT*/
 .c1p-intro {
 	background-color: #030D16;
-	color: white;
+	color: #f7f7f7;
 	padding: 5vh 0;
 	font-size: 1.2em;
+}
+
+/*FONTS*/
+body {
+	font-family: Lato,Verdana,sans-serif;
+	letter-spacing: 1px;
+	font-weight: 300;
 }
