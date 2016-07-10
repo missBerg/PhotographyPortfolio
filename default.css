@@ -21,11 +21,10 @@
 }
 
 /*CAROUSEL*/
-.c1p-carousel-img{
+div.c1p-carousel img.c1p-carousel-img {
 	min-width: 100vw;
-	min-height: 70vh;
+	height: 70vh;
 	object-fit: cover;
-	
 }
 
 .c1p-carousel-item{
