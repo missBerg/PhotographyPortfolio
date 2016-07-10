@@ -4,18 +4,21 @@ module.controller('CarouselCtrl', function ($scope) {
   $scope.active = 0;
   var slides = $scope.slides = [
       {
-          image: 'assets/family/01.jpg',
-          text: 'Test text',
+          image: 'assets/family.jpg',
+          text: 'Intimate family photography',
+		  title: 'Family',
           id: 0
       },
       {
-          image: 'assets/family/02.jpg',
-          text: 'Test text 1',
+          image: 'assets/newborn.jpg',
+          text: 'Capturing beautiful moments',
+		  title: 'Newborn',
           id: 1
       },
       {
-          image: 'assets/family/03.jpg',
-          text: 'Test text 2',
+          image: 'assets/pregnancy.jpg',
+          text: 'Your unique experience worth remembering',
+		  title: 'Pregnancy',
           id: 2
       }
   ];

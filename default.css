@@ -21,6 +21,20 @@
 }
 
 /*CAROUSEL*/
+.c1p-carousel-title{
+	font-size: 8vh;
+	text-transform: lowercase;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+
+.c1p-carousel-subtitle{
+	font-size: 3vh;
+	text-transform: lowercase;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+}
+
 div.c1p-carousel img.c1p-carousel-img {
 	min-width: 100vw;
 	height: 70vh;
@@ -56,7 +70,7 @@ div.c1p-content-container div.c1p-body-container div.c1p-img-link {
 .c1p-footer {
 	background-color: #030D16;
 	color: white;
-	padding: 0 0 2vh 0;
+	padding: 5vh 0 2vh 0;
     bottom: 0;
     min-height: 20vh;
 }
@@ -67,17 +81,66 @@ div.c1p-content-container div.c1p-body-container div.c1p-img-link {
 	color: #f7f7f7;
 }
 
+.c1p-footer-h2 {
+	font-size: 1.1em;
+	text-transform: uppercase;
+	color: #f7f7f7;
+}
+
 .c1p-strapline{
 	font-size: 1em;
 	color: #ccc;
 	
 }
 
+.c1p-footer-contact{
+	margin: 5vh 0;
+}
+
+.c1p-social-button{
+	width: 5vh;
+	height: 5vh;
+	background-size: 5vh, 5vh;
+	background-repeat: no-repeat;
+	margin: 0 auto 1vh auto;
+	display: block;
+}
+
+.c1p-facebook {
+	background-image: url('assets/facebook_online_social_media.svg');
+}
+
+.c1p-mail {
+	background-image: url('assets/email_mail_envelope_send_message.svg');
+}
+
+.c1p-phone{
+	background-image: url('assets/phone_logo_social_media.svg');
+}
+
+.c1p-facebook:hover {
+	background-image: url('assets/online_social_media_facebook.svg');
+}
+
+.c1p-mail:hover {
+	background-image: url('assets/mail_email_envelope_send_message.svg');
+}
+
+.c1p-phone:hover {
+	background-image: url('assets/logo_social_media_phone.svg');
+}
+
+.c1p-social {
+	text-align: center;
+	padding: 0 0 2vh 0;
+	font-size: 0.8em;
+}
+
 /*CONTENT TEXT*/
 .c1p-intro {
-	background-color: #030D16;
+	background-color: #191e23;
 	color: #f7f7f7;
-	padding: 5vh 0;
+	padding: 7vh 0 5vh 0;
 	font-size: 1.2em;
 }
 
@@ -87,3 +150,5 @@ body {
 	letter-spacing: 1px;
 	font-weight: 300;
 }
+
+/*SECTION DIVIDER*/
