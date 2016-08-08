@@ -20,6 +20,12 @@ module.controller('CarouselCtrl', function ($scope) {
           text: 'Your unique experience worth remembering',
 		  title: 'Pregnancy',
           id: 2
+      },
+	  {
+          image: 'assets/children.jpg',
+          text: 'Making sure they are not growing up too fast',
+		  title: 'Children & Beyond',
+          id: 3
       }
   ];
   var currIndex = 0;

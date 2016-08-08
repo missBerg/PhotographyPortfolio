@@ -1,19 +1,55 @@
 <div class="c1p-content-container" ng-controller="PortfolioCtrl">
     <div class="c1p-page-header">
-        <h1>{{name}}<small>{{title}}</small></h1>
+		<h1 class="c1p-portfolio-h1 c1p-portfolio-heading">{{name}}</h1>
+		<h2 class="c1p-portfolio-h2 c1p-portfolio-heading">{{title}}</h2>
     </div>
     <div class="c1p-body-container">
         <div class="c1p-img-grid container-fluid">
-            <div class="row">
-                <div class="c1p-img-link col-xs-3" ng-repeat="img in selected.top_row track by $index">
-                    <img ng-src="{{img}}" />
-                </div>
-            </div>
-            <div class="row">
-                <div class="c1p-img-link col-xs-3" ng-repeat="img in selected.bottom_row track by $index">
-                    <img ng-src="{{img}}" />
+			<div class="row c1p-img-grid-row" ng-repeat="photos in selected.photos track by $index">
+                <div class="c1p-img-link col-md-3" ng-repeat="img in photos track by $index">
+                    <button type="button" data-toggle="modal" data-target="#pic">
+						<img class="c1p-portfolio-img" ng-src="{{img}}" />
+					</button>
+					
+					<div id="pic" class="modal fade" role="dialog">
+					  <div class="modal-dialog modal-lg">
+
+						<!-- Modal content-->
+						<div class="modal-content">
+						  <div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+							<h4 class="modal-title">Picture</h4>
+						  </div>
+						  <div class="modal-body">
+							  <img class="c1p-portfolio-view-img" src="{{img}}" />
+						  </div>
+						  <div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						  </div>
+						</div>
+
+					  </div>
+					</div>
+					
                 </div>
             </div>
         </div>
     </div>
+	
+	<div class="row c1p-portfolio-content">
+		<div class="col-md-12">
+			<button type="button" class="btn btn-default">See available {{name}} photoshoot packages</button>
+		</div>
+	</div>
+	
+	<div class="row c1p-portfolio-content">
+		<div class="col-md-6 col-md-offset-3">
+			<p>“Thank you Dorota for a great photo session! We had an amazing time and experience with you. Dorota is professional, talented,  creative, very easy to get on with and she is great with children. Our two little girls absolutely loved her. We got our pictures very quickly and they are beautiful and unique. I recommend Dorota's services and I can't wait to have a session again. Thank you.”</p>
+			<p class="c1p-testemony-author">- The Jasiok family</p>
+		</div>
+	</div>
+
+	</div>
+
+	
 </div>

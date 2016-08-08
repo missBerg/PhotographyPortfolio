@@ -24,15 +24,15 @@
 .c1p-carousel-title{
 	font-size: 8vh;
 	text-transform: lowercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Libre Baskerville', serif;
 	font-weight: 700;
 }
 
 .c1p-carousel-subtitle{
 	font-size: 3vh;
 	text-transform: lowercase;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 400;
+	font-family: Lato,Verdana,sans-serif;
+	font-weight: 700;
 }
 
 div.c1p-carousel img.c1p-carousel-img {
@@ -56,21 +56,63 @@ div.c1p-carousel img.c1p-carousel-img {
 	min-height: 70vh;
 }
 
-/*PORTFOLIO CONTAINER*/
-div.c1p-content-container div.c1p-body-container div.c1p-img-link img {
-    max-width: 100%;
+.c1p-content-wrapper{
+	width: 70vw;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
 }
 
-div.c1p-content-container div.c1p-body-container div.c1p-img-link {
+.c1p-about-photo{
+	width: 100%;
+}
+.c1p-content-text{
+	padding: 5vh 0 15vh 1vw;
+}
+
+/*PORTFOLIO CONTAINER*/
+.c1p-portfolio-img {
+    width: 25vw;
+	height: 40vh;
+	object-fit: cover;
+	overflow: hidden;
+}
+
+div.c1p-img-link {
     padding-left: 0;
     padding-right: 0;
 }
 
+div.c1p-img-link button{
+	padding: 0;
+	border-width: 0px;
+}
+
+.c1p-portfolio-view-img{
+	max-width: 100%;
+	max-height: 100%;
+	margin: 0 auto 0 auto;
+}
+
+.c1p-page-header{
+	text-align: center;
+	margin: 0 auto 10vh auto;
+}
+
+.c1p-portfolio-content{
+	margin: auto;
+	text-align: center;
+	margin: 4vh 0 2vh 0;
+}
+
+.c1p-testemony-author{
+	font-weight: 700;
+}
 /*FOOTER*/
 .c1p-footer {
 	background-color: #030D16;
 	color: white;
-	padding: 5vh 0 2vh 0;
+	padding: 7vh 0 2vh 0;
     bottom: 0;
     min-height: 20vh;
 }
@@ -144,11 +186,43 @@ div.c1p-content-container div.c1p-body-container div.c1p-img-link {
 	font-size: 1.2em;
 }
 
+.c1p-text-emphasis {
+	font-size: 16px;
+	font-weight: 400;
+	color: #6b6b6b;
+	width: 70%;
+	margin: 20px auto;
+	text-align: center;
+	font-family: 'Libre Baskerville', serif;
+	font-style: italic;
+	
+}
+
 /*FONTS*/
 body {
 	font-family: Lato,Verdana,sans-serif;
 	letter-spacing: 1px;
 	font-weight: 300;
+}
+
+.c1p-h1{
+	color: #494949;
+	font-size: 2.5em;
+}
+
+.c1p-portfolio-heading{
+	color: #494949;
+}
+.c1p-portfolio-h1{
+	font-size: 2.5em;
+	font-family: 'Libre Baskerville', serif;
+	font-weight: 700;
+	
+}
+
+.c1p-portfolio-h2{
+	font-size: 1.5em;
+	margin: 2vh 10vh;
 }
 
 /*SECTION DIVIDER*/

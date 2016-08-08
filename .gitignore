@@ -24,6 +24,12 @@
 # Bower #
 bower_components
 
+# Pictures #
+assets/Children
+assets/Family
+assets/Maternity
+assets/Newborn
+
 # Logs and databases #
 ######################
 *.log
