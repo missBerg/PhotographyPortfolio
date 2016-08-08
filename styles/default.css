@@ -57,10 +57,11 @@ div.c1p-carousel img.c1p-carousel-img {
 }
 
 .c1p-content-wrapper{
-	width: 70vw;
+	max-width: 800px;
 	margin: 0 auto;
 	display: flex;
 	align-items: center;
+	padding: 0 2vw;
 }
 
 .c1p-about-photo{

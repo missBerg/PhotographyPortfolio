@@ -2,3 +2,10 @@
 	width: 50vw;
 	height: 50vw;
 }
+
+.c1p-content-wrapper{
+	max-width: 800px;
+	margin: 0 auto;
+	display: block;
+	padding: 0 2vw;
+}
