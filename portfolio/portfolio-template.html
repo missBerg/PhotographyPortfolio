@@ -42,14 +42,10 @@
 		</div>
 	</div>
 	
-	<div class="row c1p-portfolio-content">
-		<div class="col-md-6 col-md-offset-3">
-			<p>“Thank you Dorota for a great photo session! We had an amazing time and experience with you. Dorota is professional, talented,  creative, very easy to get on with and she is great with children. Our two little girls absolutely loved her. We got our pictures very quickly and they are beautiful and unique. I recommend Dorota's services and I can't wait to have a session again. Thank you.”</p>
-			<p class="c1p-testemony-author">- The Jasiok family</p>
+    <div class="row c1p-portfolio-content">
+		<div class="col-md-6 col-md-offset-3 c1p-portfolio-testemony-text" ng-repeat="testemony in selected.testemonies">
+			<p ng-bind="testemony.text"></p>
+			<p class="c1p-testemony-author">- {{testemony.author}}</p>
 		</div>
-	</div>
-
-	</div>
-
-	
+	</div>	
 </div>
