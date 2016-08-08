@@ -25,10 +25,10 @@
 bower_components
 
 # Pictures #
-assets/Children
-assets/Family
-assets/Maternity
-assets/Newborn
+assets/Children/*.jpg
+assets/Family/*.jpg
+assets/Maternity/*.jpg
+assets/Newborn/*.jpg
 
 # Logs and databases #
 ######################

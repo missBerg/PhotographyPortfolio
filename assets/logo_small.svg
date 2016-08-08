@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="679.2" height="164.2" viewBox="0 0 3396 821">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-4 {
+        font-size: 150px;
+      }
+
+      .cls-2, .cls-7 {
+        font-family: "Baskerville";
+      }
+
+      .cls-3 {
+        font-size: 45.833px;
+      }
+
+      .cls-4 {
+        fill: #5e5e5e;
+        font-family: "HelveticaNeue-Thin";
+      }
+
+      .cls-5 {
+        fill: #000;
+        fill-rule: evenodd;
+      }
+
+      .cls-6, .cls-7 {
+        font-size: 129.2px;
+      }
+    </style>
+  </defs>
+  <text transform="translate(69 486) scale(3.45)" class="cls-1"><tspan class="cls-1"><tspan class="cls-2">CHAPTER<tspan class="cls-3"> </tspan></tspan></tspan></text>
+  <text transform="translate(108 698) scale(1.45)" class="cls-1"><tspan class="cls-4">PHOTOGRAPHY</tspan></text>
+  <g>
+    <path d="M2622.875,99.187 L2622.875,224.937 L2608.000,224.937 L2608.000,99.187 L2608.000,85.000 L2622.875,85.000 L2755.000,85.000 L2755.000,99.187 L2622.875,99.187 Z" class="cls-5"/>
+    <path d="M2755.000,539.000 L2622.875,539.000 L2608.000,539.000 L2608.000,524.813 L2608.000,399.063 L2622.875,399.063 L2622.875,524.813 L2755.000,524.813 L2755.000,539.000 Z" class="cls-5"/>
+    <path d="M3222.125,539.000 L3090.000,539.000 L3090.000,524.813 L3222.125,524.813 L3222.125,399.063 L3237.000,399.063 L3237.000,524.813 L3237.000,539.000 L3222.125,539.000 Z" class="cls-5"/>
+    <path d="M3222.125,224.937 L3222.125,99.187 L3090.000,99.187 L3090.000,85.000 L3222.125,85.000 L3237.000,85.000 L3237.000,99.187 L3237.000,224.937 L3222.125,224.937 Z" class="cls-5"/>
+    <text transform="translate(2823 445) scale(3.16 3.16)" class="cls-6"><tspan class="cls-7">1</tspan></text>
+  </g>
+</svg>
