@@ -15,6 +15,10 @@ var module = angular.module("chapter1", ['ngRoute', 'ngAnimate', 'ui.bootstrap']
                     templateUrl: 'home.html',
                     controller: 'RouteController'
                 }).
+				when('/packages', {
+                    templateUrl: 'packages/packages.html',
+                    controller: 'RouteController'
+                }).
 				when('/portfolio', {
                     templateUrl: 'portfolio/portfolio.html',
                     controller: 'RouteController'

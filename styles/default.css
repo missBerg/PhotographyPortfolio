@@ -1,4 +1,4 @@
-.navbar {
+.navbar-header {
     min-height: 80px;
 }
 
@@ -71,6 +71,15 @@ div.c1p-carousel img.c1p-carousel-img {
 }
 
 /*PORTFOLIO CONTAINER*/
+
+@media screen and (max-width: 768x) {
+
+	.c1p-portfolio-img {
+		width: 80vw;
+		height: 80vw;
+	}
+}
+
 .c1p-portfolio-img {
     width: 25vw;
 	height: 40vh;
@@ -149,27 +158,27 @@ div.c1p-img-link button{
 }
 
 .c1p-facebook {
-	background-image: url('assets/facebook_online_social_media.svg');
+	background-image: url('../assets/facebook_online_social_media.svg');
 }
 
 .c1p-mail {
-	background-image: url('assets/email_mail_envelope_send_message.svg');
+	background-image: url('../assets/email_mail_envelope_send_message.svg');
 }
 
 .c1p-phone{
-	background-image: url('assets/phone_logo_social_media.svg');
+	background-image: url('../assets/phone_logo_social_media.svg');
 }
 
 .c1p-facebook:hover {
-	background-image: url('assets/online_social_media_facebook.svg');
+	background-image: url('../assets/online_social_media_facebook.svg');
 }
 
 .c1p-mail:hover {
-	background-image: url('assets/mail_email_envelope_send_message.svg');
+	background-image: url('../assets/mail_email_envelope_send_message.svg');
 }
 
 .c1p-phone:hover {
-	background-image: url('assets/logo_social_media_phone.svg');
+	background-image: url('../assets/logo_social_media_phone.svg');
 }
 
 .c1p-social {
@@ -208,6 +217,7 @@ body {
 .c1p-h1{
 	color: #494949;
 	font-size: 2.5em;
+	text-transform: uppercase;
 }
 
 .c1p-portfolio-heading{
