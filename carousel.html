@@ -1,13 +1,13 @@
 <div ng-controller="CarouselCtrl" class="c1p-carousel">
   <div>
-    <uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
-      <uib-slide class="c1p-carousel-item" ng-repeat="slide in slides track by slide.id" index="slide.id">
+    <div uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
+      <div uib-slide class="c1p-carousel-item" ng-repeat="slide in slides track by slide.id" index="slide.id">
         <img ng-src="{{slide.image}}" style="margin:auto;" class="c1p-carousel-img">
         <div class="carousel-caption">
           <h2 class="c1p-carousel-title">{{slide.title}}</h2>
           <h3 class="c1p-carousel-subtitle">{{slide.text}}</h3>
         </div>
-      </uib-slide>
-    </uib-carousel>
+      </div>
+    </div>
   </div>
 </div>
