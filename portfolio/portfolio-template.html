@@ -5,13 +5,13 @@
     </div>
     <div class="c1p-body-container">
         <div class="c1p-img-grid container-fluid">
-			<div class="row c1p-img-grid-row" ng-repeat="photos in selected.photos track by $index">
-                <div class="c1p-img-link col-md-3 col-sm-6 col-xs-12" ng-repeat="img in photos track by $index">
-                    <button type="button" data-toggle="modal" data-target="#pic">
+			<div class="row c1p-img-grid-row" ng-repeat="photo in selected.photos track by $index">
+                <div class="c1p-img-link col-md-3 col-sm-6 col-xs-12" ng-repeat="img in photo track by $index">
+                    <button type="button" data-toggle="modal" data-target="#pic{{$index}}">
 						<img class="c1p-portfolio-img" ng-src="{{img}}" />
 					</button>
 					
-					<div id="pic" class="modal fade" role="dialog">
+					<div id="pic{{$index}}" class="modal fade" role="dialog">
 					  <div class="modal-dialog modal-lg">
 
 						<!-- Modal content-->
