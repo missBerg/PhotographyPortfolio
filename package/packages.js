@@ -1,6 +1,6 @@
-module.controller('PortfolioCtrl', function ($scope, $route, $routeParams, $location) {
+module.controller('PackagesCtrl', function ($scope) {
     
-    var portfolios = [
+    var packages = [
         {
             "name": 'Family',
             "title": 'Intimate photography of your family',
@@ -60,21 +60,21 @@ module.controller('PortfolioCtrl', function ($scope, $route, $routeParams, $loca
 		
     ];
     
-    var portfolio_map = {'family': 0, 'maternity': 1, 'newborn': 2 };
+    var package_map = {'family': 0, 'maternity': 1, 'newborn': 2 };
     
-    var chosenPortfolio = $routeParams.portfolio;
+    var chosenpackage = $routeParams.package;
     
-    if(chosenPortfolio != null) {
-        chosenPortfolio = chosenPortfolio.toLowerCase();
+    if(chosenpackage != null) {
+        chosenpackage = chosenpackage.toLowerCase();
     }
     
-    // Error handling - redirect back to the /portfolio page if an invalid portfolio is entered
-    if(portfolio_map[chosenPortfolio] == null) {
-        $route.updateParams({portfolio: ''});
+    // Error handling - redirect back to the /package page if an invalid package is entered
+    if(package_map[chosenpackage] == null) {
+        $route.updateParams({package: ''});
     }
     
-    var portfolio = portfolios[portfolio_map[chosenPortfolio]];
-    $scope.name = portfolio.name;
-    $scope.title = portfolio.title;
-    $scope.selected = portfolio;
+    var package = packages[package_map[chosenpackage]];
+    $scope.name = package.name;
+    $scope.title = package.title;
+    $scope.selected = package;
 });

@@ -16,28 +16,20 @@ var module = angular.module("chapter1", ['ngRoute', 'ngAnimate', 'ui.bootstrap']
                     controller: 'RouteController'
                 }).
 				when('/packages', {
-                    templateUrl: 'packages/packages.html',
+                    templateUrl: 'package/packages.html',
                     controller: 'RouteController'
                 }).
-				when('/portfolio', {
-                    templateUrl: 'portfolio/portfolio.html',
+                when('/package/:package', {
+                    templateUrl: 'package/package-template.html',
+                    controller: 'PackageCtrl'
+                }).
+				when('/portfolios', {
+                    templateUrl: 'portfolio/portfolios.html',
                     controller: 'RouteController'
                 }).
                 when('/portfolio/:portfolio', {
                     templateUrl: 'portfolio/portfolio-template.html',
                     controller: 'PortfolioCtrl'
-                }).
-				when('/portfolio/maternity', {
-                    templateUrl: 'portfolio/maternity.html',
-                    controller: 'RouteController'
-                }).
-				when('/portfolio/newborn', {
-                    templateUrl: 'portfolio/newborn.html',
-                    controller: 'RouteController'
-                }).
-				when('/portfolio/family', {
-                    templateUrl: 'portfolio/family.html',
-                    controller: 'RouteController'
                 }).
                 otherwise({
                     redirectTo: '/home'
