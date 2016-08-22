@@ -16,12 +16,12 @@ var module = angular.module("chapter1", ['ngRoute', 'ngAnimate', 'ui.bootstrap']
                     controller: 'RouteController'
                 }).
 				when('/packages', {
-                    templateUrl: 'package/packages.html',
+                    templateUrl: 'packages/packages.html',
                     controller: 'RouteController'
                 }).
-                when('/package/:package', {
-                    templateUrl: 'package/package-template.html',
-                    controller: 'PackageCtrl'
+                when('/packages/:packages', {
+                    templateUrl: 'packages/packages-template.html',
+                    controller: 'PackagesCtrl'
                 }).
 				when('/portfolios', {
                     templateUrl: 'portfolio/portfolios.html',

@@ -1,4 +1,4 @@
-module.controller('PackagesCtrl', function ($scope) {
+module.controller('PackagesCtrl', function ($scope, $route, $routeParams, $location) {
     
     var packages = [
         {
@@ -60,20 +60,20 @@ module.controller('PackagesCtrl', function ($scope) {
 		
     ];
     
-    var package_map = {'family': 0, 'maternity': 1, 'newborn': 2 };
+    var packages_map = {'family': 0, 'maternity': 1, 'newborn': 2 };
     
-    var chosenpackage = $routeParams.package;
+    var chosenpackages = $routeParams.packages;
     
-    if(chosenpackage != null) {
-        chosenpackage = chosenpackage.toLowerCase();
+    if(chosenpackages != null) {
+        chosenpackages = chosenpackages.toLowerCase();
     }
     
-    // Error handling - redirect back to the /package page if an invalid package is entered
-    if(package_map[chosenpackage] == null) {
-        $route.updateParams({package: ''});
+    // Error handling - redirect back to the /packages page if an invalid packages is entered
+    if(packages_map[chosenpackages] == null) {
+        $route.updateParams({packages: ''});
     }
     
-    var package = packages[package_map[chosenpackage]];
+    var package = packages[packages_map[chosenpackages]];
     $scope.name = package.name;
     $scope.title = package.title;
     $scope.selected = package;
