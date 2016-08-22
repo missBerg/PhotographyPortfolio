@@ -237,3 +237,16 @@ body {
 }
 
 /*SECTION DIVIDER*/
+
+/* CARD */
+.card{
+	padding: 2vw;
+	margin: 2vw;
+	border: 1px solid grey;
+}
+
+.card-title-h2{
+	font-family: 'Libre Baskerville', serif;
+	font-weight: 700;
+	font-size: 1.5em;
+}
